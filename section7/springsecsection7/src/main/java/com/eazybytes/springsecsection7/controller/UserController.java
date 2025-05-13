@@ -1,7 +1,7 @@
-package com.eazybytes.springsecsection5.controller;
+package com.eazybytes.springsecsection7.controller;
 
-import com.eazybytes.springsecsection5.model.Customer;
-import com.eazybytes.springsecsection5.repository.CustomerRepository;
+import com.eazybytes.springsecsection7.model.Customer;
+import com.eazybytes.springsecsection7.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.eazybytes.springsecsection5.config;
+package com.eazybytes.springsecsection7.config;
 
-import com.eazybytes.springsecsection5.model.Customer;
-import com.eazybytes.springsecsection5.repository.CustomerRepository;
+import com.eazybytes.springsecsection7.model.Customer;
+import com.eazybytes.springsecsection7.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

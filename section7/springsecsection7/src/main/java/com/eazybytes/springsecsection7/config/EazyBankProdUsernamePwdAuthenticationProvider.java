@@ -1,4 +1,4 @@
-package com.eazybytes.springsecsection5.config;
+package com.eazybytes.springsecsection7.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Profile;

@@ -1,6 +1,6 @@
-package com.eazybytes.springsecsection5.repository;
+package com.eazybytes.springsecsection7.repository;
 
-import com.eazybytes.springsecsection5.model.Customer;
+import com.eazybytes.springsecsection7.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,5 +1,6 @@
-package com.eazybytes.springsecsection5.config;
+package com.eazybytes.springsecsection7.config;
 
+import com.eazybytes.springsecsection7.exceptions.CustomBasicAuthenticationEntryPoint;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
@@ -25,7 +26,8 @@ public class ProjectSecurityConfig {
                         .requestMatchers("/myAccount", "/myBalance", "/myLoans", "/myCards").authenticated()
                         .requestMatchers("/contact", "/notices", "/user/register", "/error").permitAll());
         http.formLogin(AbstractHttpConfigurer::disable);
-        http.httpBasic(Customizer.withDefaults());
+//        http.httpBasic(Customizer.withDefaults());
+        http.httpBasic(hbc -> hbc.authenticationEntryPoint(new CustomBasicAuthenticationEntryPoint()));
         return http.build();
     }
 

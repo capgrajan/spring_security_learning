@@ -1,4 +1,4 @@
-package com.eazybytes.springsecsection5.model;
+package com.eazybytes.springsecsection7.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
